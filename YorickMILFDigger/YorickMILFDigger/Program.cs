@@ -84,11 +84,11 @@ namespace YorickMILFDigger
             menu.SubMenu("Keys")
                 .AddItem(
                     new MenuItem("ComboActive", "Combo!").SetValue(
-                        new KeyBind("C".ToCharArray()[0], KeyBindType.Press)));
+                        new KeyBind("32".ToCharArray()[0], KeyBindType.Press)));
             menu.SubMenu("Keys")
                 .AddItem(
                     new MenuItem("HarassActive", "Harass!").SetValue(
-                        new KeyBind("S".ToCharArray()[0], KeyBindType.Press)));
+                        new KeyBind("C".ToCharArray()[0], KeyBindType.Press)));
             menu.SubMenu("Keys")
                 .AddItem(
                     new MenuItem("HarassActiveT", "Harass (toggle)!").SetValue(new KeyBind("Y".ToCharArray()[0],
@@ -96,7 +96,7 @@ namespace YorickMILFDigger
             menu.SubMenu("Keys")
                 .AddItem(
                     new MenuItem("LaneClearActive", "Farm!").SetValue(
-                        new KeyBind("X".ToCharArray()[0], KeyBindType.Press)));
+                        new KeyBind("V".ToCharArray()[0], KeyBindType.Press)));
             menu.SubMenu("Keys")
                 .AddItem(
                     new MenuItem("LastHitE", "Last hit with E").SetValue(new KeyBind("A".ToCharArray()[0],
